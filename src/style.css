@@ -1,0 +1,78 @@
+:root {
+    --main-theme: #ff8906;
+  }
+  
+  body {
+    text-align: center;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+  
+  .customHeader {
+    background-color: #0f0e17 !important;
+    padding: 0px !important;
+    
+  }
+  
+  header {
+    border-bottom: 5px solid var(--main-theme);
+  }
+  
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+  
+  .customMenu {
+    color: #fffffe !important;
+  }
+  
+  .titles:hover,
+  .navbar-brand:hover,
+  .nav-link:hover {
+    color: var(--main-theme) !important;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .nav-link {
+    font-size: 20px !important;
+  }
+  
+  .divCenter{
+    display: flex;
+    background-color: red!;
+  }
+  .btn-primary:hover,
+  .custom-card:hover,
+  .customImg:hover {
+    box-shadow: 0px 0px 15px 10px var(--main-theme);
+    scale: 1.03;
+    transition: ease-in-out 0.5s;
+  }
+  
+  .customDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .btn-primary:active,
+  .btn-primary:focus,
+  .btn-primary {
+    border: var(--main-theme) 1px solid !important;
+  }
+  
+  #work-section {
+    display: flex;
+    text-align: center;
+  }
+  
+  .customFooter {
+    height: 12vh;
+  }
+  
+  .customUl li:hover {
+    scale: 1.5;
+    transition: 0.3s ease-in-out;
+  }
+  
