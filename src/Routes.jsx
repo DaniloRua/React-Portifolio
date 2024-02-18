@@ -16,7 +16,6 @@ const AppRoutes = () => {
                 <Route path="/resume" element={<Resume />}></Route>
                 <Route path="/work" element={<Work />}></Route>
              
-    
             </Routes>
         </Router>
     )

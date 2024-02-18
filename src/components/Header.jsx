@@ -8,17 +8,17 @@ const Header = ()=> {
 <header>
     <nav className="navbar navbar-expand-lg bg-body-tertiary customHeader">
     <div className="container-fluid">
-        <a class="navbar-brand" href="#about-me">Danilo Rua</a>
+        <a className="navbar-brand" href="about-me">Danilo Rua</a>
         <button className="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">
             <span className="navbar-toggler-icon "></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav gap-3">
-                <a className="nav-link active" aria-current="page" href="#" id="about-me">About me</a>
-                <a className="nav-link" href="#work">Work</a>
-                <a className="nav-link" href="#contact">Contact</a>
+                <a className="nav-link active" aria-current="page" href="/" id="about-me">About me</a>
+                <a className="nav-link" href="work">Work</a>
+                <a className="nav-link" href="contact">Contact</a>
                 <a className="nav-link disabled resume" aria-disabled="true">Resume</a>
             </div>
         </div>
