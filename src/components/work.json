@@ -3,13 +3,31 @@
       "id": 1,
       "title": "Page Not Found",
       "description": " simple Page not found that indicates the user reached the domain they requested, but the URL path provided no information.",
-      "image": ""
+      "image": "notfound.png"
     },
     {
       "id": 2,
-      "title": "Project 2",
-      "description": "",
-      "image": "project2.jpg"
+      "title": "Dark mode Login page",
+      "description": "A login page specifies the login URL in a web application that users must pass through to get to the authenticated URLs. Dark mode displays gray-ish or light text on a dark background instead of dark text and graphics against a white background.",
+      "image": "Dark mode.png"
+    },
+    {
+      "id": 2,
+      "title": "Habit Tracker",
+      "description": "Habit Tracker is a web application crafted to assist you in building habits and achieving goals by meticulously recording your daily routines and customary habits.",
+      "image": "Dark mode.png"
+    },
+    {
+      "id": 3,
+      "title": "Habbit Tracker",
+      "description": "Habit Tracker is a web application crafted to assist you in building habits and achieving goals by meticulously recording your daily routines and customary habits.",
+      "image": "Habit.png"
+    },
+    {
+      "id": 4,
+      "title": "To do list",
+      "description": "A to do list app helps you organize tasks and stay on top of your deadlines. You can use it to manage everything from grocery lists to work-related tasks and more.",
+      "image": "TODO.png"
     }
 
   ]

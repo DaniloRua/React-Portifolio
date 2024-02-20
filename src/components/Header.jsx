@@ -8,7 +8,7 @@ const Header = ()=> {
 <header>
     <nav className="navbar navbar-expand-lg bg-body-tertiary customHeader">
     <div className="container-fluid">
-        <a className="navbar-brand" href="about-me">Danilo Rua</a>
+        <a className="navbar-brand" href="/">Danilo Rua</a>
         <button className="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">

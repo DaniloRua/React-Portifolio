@@ -10,7 +10,9 @@ import WorkData from "../components/work.json"
 const Work = () => {
     return (
 <div>
-             
+{/* Be sure to store your project details data in a JSON file and import it into your project */}
+{/* {projectsData.map((project) => (){})} */}
+
     <h1 className="titles text-center" id="work">Work</h1>
     <section className="container-fluid" id="work">
             <div className="container-fluid text-center">
