@@ -16,7 +16,7 @@ const Header = ()=> {
         </button>
         <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav gap-3">
-                <a className="nav-link active" aria-current="page" href="/" id="about-me">About me</a>
+                <a className="nav-link active" aria-current="page" href="/about-me" id="about-me">About me</a>
                 <a className="nav-link" href="work">Work</a>
                 <a className="nav-link" href="contact">Contact</a>
                 <a className="nav-link disabled resume" aria-disabled="true">Resume</a>
