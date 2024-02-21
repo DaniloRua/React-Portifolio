@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import AppRoutes from "./Routes";
 import Header from "./components/Header";
-import "./style.css";
 
 function App() {
   return (

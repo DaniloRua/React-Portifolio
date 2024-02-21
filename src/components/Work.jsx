@@ -1,5 +1,5 @@
 import React from "react";
-import '../style.css'
+import '../app.css'
 import PageNotFound from '../assets/images/notfound.png'
 import Todo from '../assets/images/TODO.png'
 import pokememory from '../assets/images/pokememory.png'

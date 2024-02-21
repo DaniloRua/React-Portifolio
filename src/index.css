@@ -1,20 +1,97 @@
+
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  --main-theme: #ff8906;
 }
 
+body {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.customHeader {
+  background-color: #0f0e17 !important;
+  padding: 0px !important;
+}
+
+header {
+  border-bottom: 5px solid var(--main-theme);
+}
+
+.navbar-brand {
+  font-size: 30px !important;
+}
+
+.customMenu {
+  color: #fffffe !important;
+}
+
+.titles:hover,
+.navbar-brand:hover,
+.nav-link:hover {
+  color: var(--main-theme) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link {
+  font-size: 20px !important;
+}
+
+.divCenter {
+  display: flex;
+  background-color: red!;
+}
+.btn-primary:hover,
+.custom-card:hover,
+.customImg:hover {
+  box-shadow: 0px 0px 15px 10px var(--main-theme);
+  scale: 1.03;
+  transition: ease-in-out 0.5s;
+}
+
+.customDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary {
+  border: var(--main-theme) 1px solid !important;
+}
+
+#work-section {
+  display: flex;
+  text-align: center;
+}
+
+.customFooter {
+  height: 12vh;
+}
+
+.customUl li:hover {
+  scale: 1.5;
+  transition: 0.3s ease-in-out;
+}
+
+.box {
+  margin: 3rem;
+}
+
+.centerIt {
+  color: whitesmoke;
+  margin: auto;
+  width: fit-content;
+  padding: 3rem;
+  border: #ff8906 2px solid;
+  border-radius: 20px;
+}
+
+.in {
+  width: 100%;
+}
 
 
 @media (prefers-color-scheme: light) {

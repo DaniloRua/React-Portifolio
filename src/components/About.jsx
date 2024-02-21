@@ -1,7 +1,7 @@
 import React from "react";
 import picture from '../assets/images/20211206_140005.jpg'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../style.css'
+import '../app.css'
 
 const About = () => {
     return (
