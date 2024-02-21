@@ -2,7 +2,6 @@ import React from "react";
 import '../app.css'
 import PageNotFound from '../assets/images/notfound.png'
 import Todo from '../assets/images/TODO.png'
-import pokememory from '../assets/images/pokememory.png'
 import darkmode from '../assets/images/Dark mode.png'
 import habit from '../assets/images/Habit.png'
 import WorkData from "../components/work.json"
