@@ -1,5 +1,4 @@
 import React from "react";
-import '../app.css'
 import PageNotFound from '../assets/images/notfound.png'
 import Todo from '../assets/images/TODO.png'
 import darkmode from '../assets/images/Dark mode.png'
